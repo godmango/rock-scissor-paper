@@ -1,9 +1,8 @@
-.App {
+.boxes {
 	flex: 1;
 	display: flex;
 	min-height: 100vh;
 	text-align: center;
-	background-color: #e9ebee;
 }
 .Box {
 	flex: 1;
@@ -28,11 +27,38 @@ img {
 h1 {
 	font-size: 50px;
 }
-.winner {
+.win {
 	color: green;
 	border: 10px solid green;
 }
-.loser {
+.lose {
 	color: red;
 	border: 10px solid red;
+}
+.tie {
+	color: orange;
+	border: 10px solid orange;
+}
+.App {
+	background-color: #e9ebee;
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+}
+.finalRes {
+	display: flex;
+	justify-content: center;
+}
+.resHistory {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+.resLocation {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	bottom: 800px;
 }
