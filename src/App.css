@@ -46,6 +46,7 @@ h1 {
 .button-group {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 50px;
 }
 .finalRes {
 	display: flex;

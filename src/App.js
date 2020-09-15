@@ -7,7 +7,7 @@ const choices = {
 	rock: "img/rock.png",
 	paper: "img/paper.png",
 	scissor: "img/scissor.png",
-	questionMark: "img/question.png",
+	ready: "img/question.png",
 };
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
 	let [playResult, setPlayResult] = useState("");
 	let [compResult, setCompResult] = useState("");
 	let [finalResult, setFinalResult] = useState("Start!");
-	let [item, setItem] = useState("questionMark");
-	let [computerItem, setComputerItem] = useState("questionMark");
+	let [item, setItem] = useState("ready");
+	let [computerItem, setComputerItem] = useState("ready");
 	let [gameHistory, setGameHistory] = useState([]);
 	//console.log(item, setItem);
 
